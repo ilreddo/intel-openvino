@@ -3,10 +3,6 @@ import cv2
 import numpy as np
 from openvino.inference_engine import IENetwork, IECore
 
-'''
-The below functions are carried over from previous exercises.
-They are already called appropriately in inference.py.
-'''
 def load_to_IE(model_xml, cpu_extension):
     # Load the Inference Engine API
     plugin = IECore()
